@@ -10,6 +10,9 @@ RUN apt-get update && \
         locales \
         curl \
         wget \
+        git \
+        python2.7 \
+        cmake \
         && \
     apt-get clean
 
